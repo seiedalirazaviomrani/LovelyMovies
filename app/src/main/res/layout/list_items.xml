@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/movieList">
+
+    <ImageView
+        android:id="@+id/list_item_mPoster"
+        android:layout_width="154dp"
+        android:layout_height="231dp"
+        android:contentDescription="@string/image_contentDescription" />
+
+    <TextView
+        android:id="@+id/list_item_mTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/White" />
+</LinearLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Lovely Movies</string>
+    <string name="detail_activity_title">Detail Info of Movie</string>
+    <string name="put_extra_text_value" translatable="false">selectedMovie</string>
+    <string name="image_contentDescription" translatable="false">Image</string>
+
+
+    <!--Strings related to Actions-->
+    <string name="action_settings">Settings</string>
+    <string name="action_SortByRate">Sort by Rate</string>
+    <string name="action_SortByPopularity">Sort by Popularity</string>
+
+    <!--Strings related to Movie Information-->
+    <string name="movieTitle">Title:</string>
+    <string name="movieRate">Rate:</string>
+    <string name="moviePopularity">Popularity:</string>
+    <string name="movieReleaseDate">Release Date:</string>
+    <string name="movieOverview">Overview:</string>
+    <string name="movieLanguage">Language:</string>
+
+    <!--Strings related to Error Messages-->
+    <string name="msg_NetConnection_Err">Network connection not found!</string>
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to General settings -->
+    <string name="pref_header_general">General</string>
+
+    <!--Strings related to shared preferences-->
+    <string name="pref_sort_key" translatable="false">SortType</string>
+    <string name="pref_setType_DefaultValue" translatable="false">top_rated</string>
+    <string name="pref_title_set_sort_type">Sort type of movies</string>
+
+    <string-array name="pref_sort_values">
+        <item>top_rated</item>
+        <item>popular</item>
+    </string-array>
+
+    <string-array name="pref_sort_titles">
+        <item>Top rated</item>
+        <item>Top popularity</item>
+    </string-array>
+</resources>
